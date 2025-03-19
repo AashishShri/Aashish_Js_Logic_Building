@@ -9,6 +9,7 @@ function calculateSumOfDigits(inputNumber) {
   let sumOfDigits = 0;
   splittedInputString.forEach((num) => {
     sumOfDigits = sumOfDigits + parseInt(num);
+    //sumOfDigits +=  parseInt(num);
   });
   return sumOfDigits;
 }
