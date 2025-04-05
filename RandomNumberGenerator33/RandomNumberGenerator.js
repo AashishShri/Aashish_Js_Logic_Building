@@ -1,5 +1,7 @@
 const maxNumber = 5;
 console.log(Math.floor(Math.random() * maxNumber) + 1);
+console.log("new");
+
 let i = 0;
 while(i < 20) {
     console.log(Math.floor(Math.random() * maxNumber) + 1);
